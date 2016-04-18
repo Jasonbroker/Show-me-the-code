@@ -78,7 +78,7 @@
         return NO;
     }
     ZCIndexItem *q = object;
-    _textLayer.frame = self.contentView.bounds;
+    _textLayer.frame = CGRectMake(10, 10, CGRectGetWidth(self.contentView.frame), CGRectGetHeight(self.contentView.frame));
     _textLayer.fontSize = 14;
     _textLayer.foregroundColor = [UIColor blackColor].CGColor;
     _textLayer.contentsScale = [UIScreen mainScreen].scale;

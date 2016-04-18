@@ -44,6 +44,7 @@
     [self.view addSubview:_questionLabel];
     
     _anwserView = [[UITextView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(_questionLabel.frame), labelwidth, CGRectGetMaxY(self.view.frame) - CGRectGetMaxY(_questionLabel.frame))];
+    _anwserView.font = [UIFont systemFontOfSize:14];
     [self.view addSubview:_anwserView];
     
     _anwserView.text = _answer;
