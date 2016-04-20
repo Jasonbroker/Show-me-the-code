@@ -24,6 +24,9 @@
 		962CF8681CC4722000D7BCF1 /* ZCAnswerViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 962CF8671CC4722000D7BCF1 /* ZCAnswerViewController1.m */; };
 		962CF86B1CC4780600D7BCF1 /* ZCAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962CF86A1CC4780600D7BCF1 /* ZCAnswerViewController.m */; };
 		962CF86F1CC4839A00D7BCF1 /* NSString+CalculateHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 962CF86E1CC4839A00D7BCF1 /* NSString+CalculateHeight.m */; };
+		962CF8721CC4CF6300D7BCF1 /* ZCAnswerViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 962CF8711CC4CF6300D7BCF1 /* ZCAnswerViewController2.m */; };
+		962CF8761CC4D53600D7BCF1 /* ZCTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 962CF8751CC4D53600D7BCF1 /* ZCTouchView.m */; };
+		962CF8781CC5D08B00D7BCF1 /* reference in Resources */ = {isa = PBXBuildFile; fileRef = 962CF8771CC5D08B00D7BCF1 /* reference */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,11 @@
 		962CF86A1CC4780600D7BCF1 /* ZCAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAnswerViewController.m; sourceTree = "<group>"; };
 		962CF86D1CC4839A00D7BCF1 /* NSString+CalculateHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CalculateHeight.h"; sourceTree = "<group>"; };
 		962CF86E1CC4839A00D7BCF1 /* NSString+CalculateHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CalculateHeight.m"; sourceTree = "<group>"; };
+		962CF8701CC4CF6300D7BCF1 /* ZCAnswerViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAnswerViewController2.h; sourceTree = "<group>"; };
+		962CF8711CC4CF6300D7BCF1 /* ZCAnswerViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAnswerViewController2.m; sourceTree = "<group>"; };
+		962CF8741CC4D53600D7BCF1 /* ZCTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTouchView.h; sourceTree = "<group>"; };
+		962CF8751CC4D53600D7BCF1 /* ZCTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTouchView.m; sourceTree = "<group>"; };
+		962CF8771CC5D08B00D7BCF1 /* reference */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reference; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +214,7 @@
 				962CF86A1CC4780600D7BCF1 /* ZCAnswerViewController.m */,
 				962CF8661CC4722000D7BCF1 /* ZCAnswerViewController1.h */,
 				962CF8671CC4722000D7BCF1 /* ZCAnswerViewController1.m */,
+				962CF8731CC4D51400D7BCF1 /* answer2 */,
 			);
 			name = AnswersViewController;
 			sourceTree = "<group>";
@@ -217,6 +226,18 @@
 				962CF86E1CC4839A00D7BCF1 /* NSString+CalculateHeight.m */,
 			);
 			name = Helper;
+			sourceTree = "<group>";
+		};
+		962CF8731CC4D51400D7BCF1 /* answer2 */ = {
+			isa = PBXGroup;
+			children = (
+				962CF8701CC4CF6300D7BCF1 /* ZCAnswerViewController2.h */,
+				962CF8711CC4CF6300D7BCF1 /* ZCAnswerViewController2.m */,
+				962CF8741CC4D53600D7BCF1 /* ZCTouchView.h */,
+				962CF8751CC4D53600D7BCF1 /* ZCTouchView.m */,
+				962CF8771CC5D08B00D7BCF1 /* reference */,
+			);
+			name = answer2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +345,7 @@
 			files = (
 				962CF8281CC3452000D7BCF1 /* LaunchScreen.storyboard in Resources */,
 				962CF8251CC3452000D7BCF1 /* Assets.xcassets in Resources */,
+				962CF8781CC5D08B00D7BCF1 /* reference in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,12 +370,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962CF8721CC4CF6300D7BCF1 /* ZCAnswerViewController2.m in Sources */,
 				962CF8201CC3452000D7BCF1 /* ViewController.m in Sources */,
 				962CF8611CC3778000D7BCF1 /* ZCIndexItem.m in Sources */,
 				962CF84F1CC3458E00D7BCF1 /* ZCViewController.m in Sources */,
 				962CF86B1CC4780600D7BCF1 /* ZCAnswerViewController.m in Sources */,
 				962CF86F1CC4839A00D7BCF1 /* NSString+CalculateHeight.m in Sources */,
 				962CF8641CC37ACD00D7BCF1 /* ZCIndexModel.m in Sources */,
+				962CF8761CC4D53600D7BCF1 /* ZCTouchView.m in Sources */,
 				962CF8581CC3525400D7BCF1 /* ZCTableViewModel.m in Sources */,
 				962CF81D1CC3452000D7BCF1 /* AppDelegate.m in Sources */,
 				962CF85E1CC3688900D7BCF1 /* ZCTableViewCell.m in Sources */,
@@ -578,6 +602,7 @@
 				962CF8441CC3452000D7BCF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		962CF8451CC3452000D7BCF1 /* Build configuration list for PBXNativeTarget "Show_me_the_codeTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +611,7 @@
 				962CF8471CC3452000D7BCF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		962CF8481CC3452000D7BCF1 /* Build configuration list for PBXNativeTarget "Show_me_the_codeUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +620,7 @@
 				962CF84A1CC3452000D7BCF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

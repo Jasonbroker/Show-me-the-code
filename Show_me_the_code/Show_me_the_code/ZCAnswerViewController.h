@@ -14,5 +14,5 @@
 
 @property (nonatomic, copy)NSString *answer;
 
-
+@property (nonatomic, strong) UITextView *anwserView;
 @end

@@ -14,8 +14,6 @@
 
 @property (nonatomic, copy)NSString *question;
 
-@property (nonatomic, strong) UITextView *anwserView;
-
 @end
 
 @implementation ZCAnswerViewController

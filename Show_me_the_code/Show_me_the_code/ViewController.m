@@ -39,8 +39,9 @@ static NSString *pushViewController = @"ZCAnswerViewController";
 - (void)createModel{
     
     NSArray *questions = @[
-                           @"两个控制器跳转后生命周期函数的调用顺序是什么？"
+                           @"两个控制器跳转后生命周期函数的调用顺序是什么？",
                            
+                           @"hittest?"
                            
                            
                            
