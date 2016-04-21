@@ -47,6 +47,12 @@
             touchView = view;
         }
     }
+    
+    self.answer = @"请点击上面的view：点击后将显示答案\n\
+    对于点击一个父视图，先响应是最下面的父视图，然后向他的子视图传递。\
+    对于一个同一个父视图的所有子视图，最上面的view的hittest将最先被调用。\
+    ";
+
 }
 
 - (void)didReceiveMemoryWarning {
