@@ -41,9 +41,8 @@ static NSString *pushViewController = @"ZCAnswerViewController";
     NSArray *questions = @[
                            @"两个控制器跳转后生命周期函数的调用顺序是什么？",
                            
-                           @"hittest?"
-                           
-                           
+                           @"在iOS 中，事件是图和传递的？",
+                           @"能否给一个分类添加属性？"
                            
                            ];
     
