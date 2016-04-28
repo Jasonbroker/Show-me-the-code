@@ -42,7 +42,8 @@ static NSString *pushViewController = @"ZCAnswerViewController";
                            @"两个控制器跳转后生命周期函数的调用顺序是什么？",
                            
                            @"在iOS 中，事件是图和传递的？",
-                           @"能否给一个分类添加属性？"
+                           @"能否给一个分类添加属性？",
+                           @"何时会触发离屏渲染？离屏渲染有什么问题？如何调试该问题？"
                            
                            ];
     
