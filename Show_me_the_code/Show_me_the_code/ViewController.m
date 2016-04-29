@@ -43,7 +43,9 @@ static NSString *pushViewController = @"ZCAnswerViewController";
                            
                            @"在iOS 中，事件是图和传递的？",
                            @"能否给一个分类添加属性？",
-                           @"何时会触发离屏渲染？离屏渲染有什么问题？如何调试该问题？"
+                           @"何时会触发离屏渲染？离屏渲染有什么问题？如何调试该问题？",
+                           @"GCD 死锁",
+                           @"如何让ab两个操作同时执行"
                            
                            ];
     
