@@ -45,8 +45,8 @@ static NSString *pushViewController = @"ZCAnswerViewController";
                            @"能否给一个分类添加属性？",
                            @"何时会触发离屏渲染？离屏渲染有什么问题？如何调试该问题？",
                            @"GCD 死锁",
-                           @"如何让ab两个操作同时执行"
-                           
+                           @"如何让ab两个操作同时执行，并在两个操作执行完后执行下一个操作",
+                           @"timer是否会导致内存泄露"
                            ];
     
     NSInteger count = questions.count;

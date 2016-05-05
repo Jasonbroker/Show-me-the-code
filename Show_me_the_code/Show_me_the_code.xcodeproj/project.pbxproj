@@ -29,6 +29,8 @@
 		962CF8781CC5D08B00D7BCF1 /* reference in Resources */ = {isa = PBXBuildFile; fileRef = 962CF8771CC5D08B00D7BCF1 /* reference */; };
 		96BAC9081CC903000083B566 /* ZCAnswerViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BAC9071CC903000083B566 /* ZCAnswerViewController3.m */; };
 		96BAC90C1CC903500083B566 /* ZCMagicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BAC90B1CC903500083B566 /* ZCMagicObject.m */; };
+		96DB523F1CDB29A700038EF2 /* ZCAnswerViewController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB523E1CDB29A700038EF2 /* ZCAnswerViewController4.m */; };
+		96DB52421CDB29EA00038EF2 /* ZCTimerTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DB52411CDB29EA00038EF2 /* ZCTimerTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,10 @@
 		96BAC9071CC903000083B566 /* ZCAnswerViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAnswerViewController3.m; sourceTree = "<group>"; };
 		96BAC90A1CC903500083B566 /* ZCMagicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMagicObject.h; sourceTree = "<group>"; };
 		96BAC90B1CC903500083B566 /* ZCMagicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMagicObject.m; sourceTree = "<group>"; };
+		96DB523D1CDB29A700038EF2 /* ZCAnswerViewController4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCAnswerViewController4.h; sourceTree = "<group>"; };
+		96DB523E1CDB29A700038EF2 /* ZCAnswerViewController4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCAnswerViewController4.m; sourceTree = "<group>"; };
+		96DB52401CDB29EA00038EF2 /* ZCTimerTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTimerTestViewController.h; sourceTree = "<group>"; };
+		96DB52411CDB29EA00038EF2 /* ZCTimerTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTimerTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +222,7 @@
 		962CF8651CC4700A00D7BCF1 /* AnswersViewController */ = {
 			isa = PBXGroup;
 			children = (
+				96DB523C1CDB295300038EF2 /* answer4 */,
 				962CF8691CC4780600D7BCF1 /* ZCAnswerViewController.h */,
 				962CF86A1CC4780600D7BCF1 /* ZCAnswerViewController.m */,
 				962CF8661CC4722000D7BCF1 /* ZCAnswerViewController1.h */,
@@ -256,6 +263,17 @@
 				96BAC90B1CC903500083B566 /* ZCMagicObject.m */,
 			);
 			name = answer3;
+			sourceTree = "<group>";
+		};
+		96DB523C1CDB295300038EF2 /* answer4 */ = {
+			isa = PBXGroup;
+			children = (
+				96DB523D1CDB29A700038EF2 /* ZCAnswerViewController4.h */,
+				96DB523E1CDB29A700038EF2 /* ZCAnswerViewController4.m */,
+				96DB52401CDB29EA00038EF2 /* ZCTimerTestViewController.h */,
+				96DB52411CDB29EA00038EF2 /* ZCTimerTestViewController.m */,
+			);
+			name = answer4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,9 +409,11 @@
 				962CF8721CC4CF6300D7BCF1 /* ZCAnswerViewController2.m in Sources */,
 				962CF8201CC3452000D7BCF1 /* ViewController.m in Sources */,
 				962CF8611CC3778000D7BCF1 /* ZCIndexItem.m in Sources */,
+				96DB52421CDB29EA00038EF2 /* ZCTimerTestViewController.m in Sources */,
 				96BAC9081CC903000083B566 /* ZCAnswerViewController3.m in Sources */,
 				962CF84F1CC3458E00D7BCF1 /* ZCViewController.m in Sources */,
 				962CF86B1CC4780600D7BCF1 /* ZCAnswerViewController.m in Sources */,
+				96DB523F1CDB29A700038EF2 /* ZCAnswerViewController4.m in Sources */,
 				962CF86F1CC4839A00D7BCF1 /* NSString+CalculateHeight.m in Sources */,
 				962CF8641CC37ACD00D7BCF1 /* ZCIndexModel.m in Sources */,
 				962CF8761CC4D53600D7BCF1 /* ZCTouchView.m in Sources */,
